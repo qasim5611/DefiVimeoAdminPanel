@@ -1,0 +1,29 @@
+
+
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    /* width: 70%; */
+    color: black;
+}.form-control{
+        border: 1px solid rgb(190, 194, 199);
+        border-radius: 7px !important;
+        width: 60%;
+        box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+        0px 1px 1px 0px rgb(0 0 0 / 14%),
+        0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+        padding: 3px 4px !important;
+            height: 40px !important;
+            margin-bottom: 20px !important;
+}
+
+
+.css-4ixp2g-MuiAutocomplete-listbox{
+        background: #f0f0f0;
+        color: black !important;
+}
+
+input[type=time]::-webkit-datetime-edit-ampm-field {
+    display: none;
+}
